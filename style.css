@@ -1,0 +1,525 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+	background:#ffe1ad;
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+
+
+}
+ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+ul li {
+	padding: 0;
+	margin:0;
+}
+a {
+	text-decoration:none;
+	color: inherit;
+}
+a:visited, a:hover {
+	color: inherit;
+}
+p {
+	margin: 0;
+	padding:0;
+}
+
+input {
+	border: 1px solid #e5e5e5;
+	color: #a7a9ac;
+}
+label {
+font-size: 90%;
+}
+.standard {
+	background-color: #fff;
+	background-size: contain;
+	width:70%;
+	border: 1px solid #e5e5e5;
+	margin: 0 auto;
+	box-shadow: 2px -2px 5px 0px #e6e6e6;
+	height: auto;
+	z-index: 1;
+
+}
+#wrapper{
+	margin: 0 auto;
+	width:95%;
+	background: #fbfbfb;
+	max-width: 100%;
+	height:auto;
+
+}
+.questions {
+	margin: 0 auto;
+}
+
+.pasekTop {
+	background: #fff;
+	width: 100%;
+	height:155px;
+	z-index:100;
+		border-bottom: 1px solid #e5e5e5;
+		margin:0;
+		padding-top:20px;
+}
+.topWrap {
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
+.pasekTop h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	float: left;
+	font-size: 150%;
+	margin: 0;
+}
+
+#addQuestion {
+	float: left;
+	margin-left:3%;
+}
+.left {
+	float: left;
+	width:15%;
+	min-width: 44px;
+	text-align: left;
+}
+.center {
+	width: 52.5%;
+	float: left;
+}
+.right {
+	float: left;
+	width: 17.5%;
+	margin-right:15%;
+	text-align: right;
+}
+
+.bottom {
+	margin-left: 15%;
+	margin-top:10px;
+	height: 33px;
+	width: 100%;
+}
+.top {
+		margin-top:20px;
+		height: 44px;
+		width: 100%;
+}
+.mobileVisible {
+
+	display: none;
+}
+#questScope {
+	float: right;
+}
+.sq {
+	width: 100%;
+	height: 100%;
+	background-color: #fbfbfb;
+}
+.sb {
+	width: 90%;
+	height: 100%;
+}
+
+.button {
+	width: 100%;
+	height: 100%;
+}
+.button input {
+		background-color: #fff;
+}
+
+.question {
+	min-height:320px;
+	height: auto;
+	border-top: none;
+	display: block;
+
+}
+.avatar {
+
+	width:60px;
+	height: auto;
+	border-radius:100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+}
+.questTop {
+	display: block;
+	width: 75%;
+	height: 80px;
+	padding-top: 10px;
+	margin-right:25%;
+	text-align: left;
+	background-color: #dff3fd;
+	float: left;
+}
+
+.questTop div {
+	padding-left: 1%;
+	display: inline-block;
+	height: 100%;
+	float: left;
+	width:15%;
+	min-width: 60px;
+	text-align: center;
+}
+
+.questTop p {
+	width:79%;
+	float: left;
+	display: inline;
+	vertical-align: top;
+	padding:0;
+	margin:0 2.5%;
+	line-height: 150%;
+
+}
+.name {
+	color: #0266b3;
+	font-size: 90%;
+	font-weight: bold;
+}
+.qTitle {
+	display:block;
+	color:#0266b3;
+	font-size: 110%;
+	font-style: italic;
+}
+
+.doWhat, .grey {
+	font-size:70%;
+	text-transform: uppercase;
+	color: #7d8b93;
+}
+.questLeftBar, .questInfo {
+	display: inline-block;
+	float: left;
+}
+.questLeftBar {
+		height:155px;
+	float: left;
+	width: 12%;
+	min-width: 90px;
+	margin-bottom:40px;
+	padding-top:35px;
+	background-color: #dff3fd;
+
+}
+.questInfo {
+	width: 65%;
+	height: 230px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.questInfo ul {
+height: 225px;
+direction: rtl;
+
+}
+.questInfo ul li {
+	float: left;
+}
+
+.reversed {
+	direction: rtl;
+}
+.commented, .answered, .firstLi {
+	width: 15%;
+	min-width: 80px;
+	height: 155px;
+	display: table-cell;
+	background-color:#ececed;
+	background-size: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-right: 4%;
+	margin-left: 0;
+}
+.commented {
+	z-index: 1;
+}
+.answered, .firstLi {
+	z-index: 20;
+}
+
+.circle {
+	content: "  ";
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	background-color:#a7a9ac;
+	background-size: 100%;
+	text-align: center;
+	margin:0 auto;
+}
+
+.answered .infoBottom {
+	border-color: #000;
+}
+.answered .circle {
+	background-color:#000;
+}
+.related
+{
+	height: 190px;
+	float: right;
+	display: inline-block;
+	padding-bottom: 40px;
+	padding-right: 5%;
+	line-height: 70px;
+	margin:0;
+}
+.related p {
+	margin:0;
+	padding: 0;
+	font-style: italic;
+	font-size: 90%;
+		text-align: left;
+}
+
+.infoTop {
+padding-top: 10%;
+height: 70%;
+width:100%;
+display:block;
+margin: 2% 0;
+}
+.infoBottom {
+	height: 15%;
+	padding-top: 5%;
+	margin: 0 auto;
+	width:85%;
+	display: block;
+	border-top: 1px solid;
+	color: #a7a9ac;
+	text-transform: uppercase;
+	font-size: 70%;
+}
+.firstLi {
+	background-color:#fff;
+		float: left;
+}
+.firstLi .infoTop 
+{
+	height:45%;
+	padding-top: 20%;
+	color: #000;
+	font-size: 110%;
+
+}
+.firstLi .infoBottom {
+	height: 30%;
+	padding-top:10%;
+	padding-bottom: 5%;
+	color: #000;
+	border:none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 80%;
+}
+.loadMore{
+	height:50px;
+	text-align: left;
+	padding-top: 3%;
+}
+.loadMore a{
+	color: #e1173f;
+	margin-left: 3%;
+
+}
+
+.sortBy {
+	font-size: 90%;
+	font-style: italic;
+}
+.sortBy a {
+	color: #0266b3;
+	font-style: normal;
+}
+#current {
+color:#a7a9ac;
+text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 1200px)
+{
+
+	.questInfo {
+		width: 60%;
+	}
+	.left {
+		width: 10%;
+	}
+	.right {
+		margin-right: 10%;
+		width: 22.5%;
+	}
+	.center {
+		width: 57.5%;
+	}
+	.bottom {
+		margin-left: 10%;
+	}
+	.standard {
+		width: 80%;
+	}
+
+			.commented, .answered, .firstLi {
+		margin-left: 4%;
+	}
+	.related {
+		padding-right: 3%;
+	}
+		.questTop {
+		margin-right:0;
+		width: 100%;
+	}
+
+}
+@media only screen and (max-width: 1000px) 
+{
+	
+	#wrapper {
+		width: 100%;
+	}
+	.topWrap {
+		width: 100%;
+	}
+	.left {
+		padding-left: 2%;
+	}
+	.right {
+		margin-right: 8%;
+	}
+		.commented, .answered, .firstLi {
+		margin-left: 3%;
+	}
+	.related p {
+		font-size: 87%;
+	}
+
+@media only screen and (max-width: 800px)
+{
+	.standard {
+		width: 90%;
+	}
+}
+}
+@media only screen and (max-width: 670px)
+{
+		.related p {
+		font-size: 83%;
+	}
+	#wrapper, .topWrap {
+		width:100%;
+	}
+	.standard {
+		width: 100%;
+	}
+
+	.commented, .answered, .firstLi {
+
+		margin-left: 3%;
+		margin-top:2%;
+		height: 130px;
+	}
+.questTop {
+	height: 75px;
+	padding-top: 5px;
+
+}
+.pasekTop {
+	height:200px;
+}
+	.questTop p {
+		width: 70%;
+	}
+	.question {
+		height: auto;
+		min-height: 240px;
+	}
+	.questInfo, .related {
+		height: 160px;
+	}
+	.related {
+		padding-bottom: 0;
+		line-height: 50px;
+	}
+	.top .left, .top .right, .top .center {
+		width: auto;
+	}
+	.top .center {
+	margin-left: 5%;
+}
+	.bottom .center {
+		width: 70%;
+	}
+	.bottom .right {
+		width: 25%;
+	}
+	.bottom {
+		margin-left: 5%;
+		margin-top:90px;
+		vertical-align: baseline;
+	}
+	.right {
+		float: right;
+		margin-right : 5%;
+	}
+	.mobileVisible {
+		display: inline-block;
+		float: left;
+			width: 100%;
+
+	}
+	.mobileHidden {
+		display: none;
+	}
+
+.sortBy, .questScope {
+	margin-top: 15px;
+		height: 20px;
+	float: left;
+		margin-left: 5%;
+		margin-bottom:0;
+}
+.sq {
+	width: 100%;
+}
+	.avatar {
+		width: 50px;
+	}
+	.questTop div {
+		min-width: 50px;
+	}
+
+
+}
+@media only screen and (max-width: 480px) {
+
+.qTitle {
+	font-size: 100%;
+}
+}
+@media only screen and (max-width: 350px)
+{
+	body {
+		font-size: 13px;
+	}
+	
+}

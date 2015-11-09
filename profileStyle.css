@@ -1,0 +1,289 @@
+#profileBody {
+	width: 100%;
+min-height: 100%;
+height:auto;
+margin: 0 0;
+background-color: rgba(0,0,0,0.5);
+background-size: contain;
+position: absolute;
+
+}
+.profileWrap {
+	width: 80%;
+	margin:5% auto;
+	background-color: #fff;
+}
+.profileMargin {
+	width: 80%;
+	margin: 0 auto;
+}
+.quit {
+	width: 98%;
+	height: 40px;
+	text-align: right;
+	display: block;
+	padding-top:20px;
+	padding-right: 2%;
+}
+.spacer {
+	width: 100%;
+	height: 50px;
+	clear: both;
+}
+.userTop {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.userTop div {
+	margin-top: 10px;
+}
+.member, .lastSeen, .userActiv {
+	display: inline-block;
+	width: 33%;
+	line-height: 25px;
+	height:25px;
+
+}
+.lastSeen, .member {
+	padding-top: 9px;
+}
+#activeIcons {
+	margin-top: 0;
+	padding: 0;
+	height: 25px;
+	display: inline;
+	padding-left: 5px;
+}
+.spaceBar {
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.member {
+	float: left;
+	text-align: left;
+
+}
+
+.userActiv {
+	float: right;
+	text-align: right;
+
+}
+.userDetails {
+	height: auto;
+	min-height: 300px;
+	width: 100%;
+
+}
+.detailPrev, .detailNext {
+	width:10%;
+	float: left;
+	display: inline-block;
+	margin-top: 5%;
+}
+.detailContent {
+	width: 80%;
+	float: left;
+	display: inline-block;
+}
+.detailContent h2 {
+	font-size: 200%;
+	display: block;
+	font-weight: normal;
+	font-style: italic;
+	margin:5% auto;
+}
+.detailContent p {
+	display: block;
+	margin: 5% 0;
+}
+.square {
+	display: inline-block;
+	background-color: #dff3fd;
+	background-size: 100%;
+	width: 95px;
+	height: 95px;
+	margin:10% 7px;
+	position: relative;
+
+}
+	.twoSquares {
+		display:inline-block;
+
+	}
+.sone {
+		transform: rotate(-37deg);
+		-ms-transform: rotate(-37deg);
+		-webkit-transform: rotate(-37deg);
+		z-index:5;
+}
+.sone span{
+		transform: rotate(37deg);
+		-ms-transform: rotate(37deg);
+		-webkit-transform: rotate(37deg);
+		position: absolute;
+}
+.stwo {
+			transform: rotate(-11deg);
+			-ms-transform: rotate(-11deg);
+			-webkit-transform: rotate(-11deg);
+					z-index:4;
+}
+.stwo span{
+			transform: rotate(11deg);
+			-ms-transform: rotate(11deg);
+			-webkit-transform: rotate(11deg);
+					position: absolute;
+}
+.sthree {
+	transform: rotate(-33deg);
+	-ms-transform: rotate(-33deg);
+	-webkit-transform: rotate(-33deg);
+			z-index:3;
+}
+.sthree span{
+	transform: rotate(33deg);
+	-ms-transform: rotate(33deg);
+	-webkit-transform: rotate(33deg);
+			position: absolute;
+}
+.sfour {
+		transform: rotate(11deg);
+		-ms-transform: rotate(11deg);
+		-webkit-transform: rotate(11deg);
+				z-index:2;
+}
+.sfour span{
+		transform: rotate(-11deg);
+		-ms-transform: rotate(-11deg);
+		-webkit-transform: rotate(-11deg);
+				position: absolute;
+}
+.squareNumber {
+	font-size: 150%;
+	display: block;
+	margin-left: 40%;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.squareSpan {
+	font-size: 90%;
+	font-style: italic;
+	display: block;
+margin-top: 60px;
+	margin-left: 15px;
+}
+.relatedPeers {
+	width: 80%;
+	margin: 40px auto;
+}
+.relatedPeers p {
+	display: block;
+	margin: 20px auto;
+}
+.onePeer {
+	width: 20%;
+	display: inline-block;
+	min-width: 80px;
+}
+.avatarDiv {
+height: 90px;
+}
+.strippedBackground {
+	background-image: url("img/stripe.png");
+	background-repeat: repeat;
+}
+.avatarDiv img {
+	margin-top:15%;
+}
+.hottest {
+	width: 100%;
+	height: auto;
+	min-height: 160px;
+}
+.hottest img {
+	margin-bottom: -35px;
+	margin-top: 20px;
+}
+.hottest div, .hottest p{
+	margin: 10px auto;
+}
+.hottestInfo {
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+
+.hottestP li {
+	display: inline-block;
+}
+
+.blacki {
+	font-size: 90%;
+	font-style: italic;
+	margin: 5% 10px;
+
+}
+.black {
+	font-size: 70%;
+}
+@media only screen and (max-width: 1000px) {
+.profileBody {
+	width: 100%;
+	margin-top: 5%;
+}
+.profileWrap {
+	width: 100%;
+}
+.profileMargin {
+	width: 90%;
+}
+}
+@media only screen and (max-width: 670px) {
+	.member, .lastSeen, .userActiv {
+		width: 100%;
+		text-align: center;
+		line-height: 20px;
+		height: 40px;
+	}
+	.member span, .lastSeen span, .userActiv span {
+		display: block;
+	}
+	.userTop
+	{
+		height: 250px;
+	}
+	.twoSquares {
+		display:block;
+	}
+	.spacer {
+		height: 100px;
+	}
+	.twoSquares {
+				margin-bottom: -20%;
+				display:block;
+	}
+	.detailContent h2 {
+		font-size: 150%;
+	}
+	.relatedPeers {
+		width: 90%;
+		margin: 40px auto;
+	}
+	.userDetails {
+		min-height: 350px;
+	}
+	.hottestP {
+		width: 100%;
+		height: 100px;
+		margin-top: 20px;
+	}
+	.hottestP li
+	{
+		width: 40%;
+		margin: 2% 5%;
+		text-align: left;
+		float:left;
+	}
+}

@@ -1,0 +1,339 @@
+.qQuestTop {
+	width:75%;
+	margin-right:0;
+	display: inline-block;
+}
+.questTopMobile {
+	width:95%;
+	height: 40px;
+	margin-top: 2px;
+	padding-left: 5%;
+	padding-top: 5px;
+	text-align: left;
+	background-color: #dff3fd;
+	float: left;
+}
+.qPasekTop {
+	height: 110px;
+}
+.topRight {
+		font-style: italic;
+	font-size: 90%;
+}
+.unfollow {
+	width: 25%;
+	background-color:#dff3fd;
+		height: 80px;
+			background-size: 100%;
+	padding-top: 10px;
+	float:left;
+}
+
+.unfollow p, .mobileUnfollow {
+	margin-top: 25px;
+	color: #0266b3;
+	font-weight: bold;
+	font-size: 90%;
+}
+.mobileUnfollow {
+	float: left;
+	width: 20%;
+	text-align: left;
+	margin-left: 5%;
+	line-height: 70px;
+}
+.question {
+	margin-bottom: -15px;
+	z-index: 1;
+}
+.questionContent {
+	padding-top: 20px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	width:58%;
+	min-height: 195px;
+	height:auto;
+	display: inline;
+	line-height:200% ;
+	color: #586d71;
+	font-size: 90%;
+	text-align: left;
+	z-index: 2;
+}
+.qQuestLeftBar {
+	margin-bottom:0;
+	height:195px;
+}
+.qrelated, .qQuestLeftBar, .questionContent {
+	margin-bottom: -15px;
+}
+.qrelated {
+	width: 20%;
+	padding-right:0;
+}
+
+.rating {
+	width: 70%;
+	margin-left: 5%;
+	float:left;
+	padding-top: 20px;
+		font-style: italic;
+	font-size: 90%;
+
+}
+
+
+.arrows {
+	width: 12px;
+	height:46px;
+	margin-top: 5px;
+	float: left;
+
+}
+.arrows img {
+	margin-top: 10px;
+	display:block;
+}
+.commentAvatar {
+	width: 12%;
+	min-width: 60px;
+	display: inline-block;
+	float: left;
+	margin-top: 20px;
+}
+.comment {
+	min-height: 100px;
+	height:auto;
+	display: block;
+	margin-bottom: -15px;
+}
+.comments {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+.commentsList {
+	width:70%;
+	margin: 0 auto;
+	padding:0;
+}
+.mainComment {
+	width: 100%;
+	max-height: 100px;
+	overflow: hidden;
+	background-color: #fff;
+	background-size: 100%;
+	min-height: 90px;
+	margin:0;
+	padding:0;
+	border: 1px solid #e5e5e5;
+}
+.mainComment div:first-child, .discussionComment div:first-child  {
+	display: inline-block;
+	height: 100%;
+	width: 12%;
+	margin:0;
+	padding:0;
+	min-width: 80px;
+	border-right: 1px solid #e5e5e5;
+	float:left;
+	padding-top:10px;
+}
+.commentTop, .commentContent {
+	width: 60%;
+	padding-left: 3%;
+	float:left;
+	text-align: left;
+	line-height: 130%;
+		border-left: 1px solid #e5e5e5;
+}
+.commentContent {
+	font-size: 90%;
+		color: #586d71;
+
+;
+}
+.commentTop {
+	height:20px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.commentVotes {
+	float: right;
+	width: 24%;
+	min-width: 46px;
+	height: auto;
+	min-height: 80px;
+	margin-top:20px;
+}
+.answer {
+	clear: both;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 100%;
+	font-style: italic;
+}
+.when {
+		font-size: 90%;
+	font-style: italic;
+}
+.spacer {
+	width: 100%;
+	height: 50px;
+	clear: both;
+}
+
+.discussion {
+	width:88%;
+	margin-left:12%;
+	float:left;
+	padding:0;
+	background: #fff;
+	background-size: 100%; 
+		border: 1px solid #e5e5e5;
+		border-top: none;
+		min-height:100px;
+					margin-bottom: -15px;
+}
+.small {
+	width: 100%;
+	border-top: 0;
+}
+.button {
+	width:180px;
+	height: 30px;
+	margin:0 auto;
+	margin-top: -15px;
+	display: block;
+
+}
+.button input {
+	width: 180px;
+	height:30px;
+	color: #000;
+	font-weight: bold;
+	}
+	.blacki {
+	font-size: 90%;
+	font-style: italic;
+
+}
+.discussionLeftBar {
+	width:2%; 
+	float: left;
+	background-color:#d8d8d8;
+	background-size: 100%;
+	min-height: 200px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	#wrapper {
+		width: 100%;
+	}
+	.standard {
+		width: 100%;
+	}
+	.right {
+		width: 30%;
+	}
+	.center {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 670px) 
+{
+
+	.questionContent {
+		width: 95%;
+
+		height: auto;
+
+	}
+	.question {
+		height: auto;
+		min-height:400px;
+		padding-bottom: 20px;
+	}
+
+	.qQuestTop p {
+		margin-top: 10px;
+	}
+	.qQuestTop {
+		height:55px;
+		width: 100%;
+	}
+	.rating {
+		float: right;
+		padding-top: 0;
+		line-height:70px;
+		margin-right: 5%;
+		margin-left:0;
+		margin-bottom: -15px;
+			text-align: right;
+	}
+	.mobileUnfollow {
+		margin-bottom: -15px;
+		margin-top: 0;
+	}
+	.rating p{
+	display: inline-block;
+	width: 50%;
+	float:right;
+
+	padding-right: 5%;
+
+}
+	.arrows {
+		display: inline-block;
+		float:right;
+	}
+	.comment {
+		min-height: 200px;
+	}
+	.commentAvatar {
+		min-width: 50px;
+		margin-top: 10px;
+		min-height: 55px ;
+
+	}
+	.commentTop {
+		min-height: 45px;
+		line-height:45px;
+		padding-bottom: 0;
+		padding-top: 20px;
+		border-left: none;
+		font-size: 15px;
+		width: 70%;
+	}
+	.commentContent {
+		border-top: 1px solid #e5e5e5;
+		width: 95%;
+		padding-bottom: 10px;
+		padding-top: 10px;
+
+	}
+	.commentVotes {
+		margin-top: 0;
+		margin-right: 20px;
+		width:70%;
+		margin-bottom: -15px;
+	}
+	.discussion {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom:0;
+	}
+	.small {
+		margin-left: 2%;
+		width: 98%;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 420px) {
+
+.questionContent {
+	font-size: 85%;
+}
+}
